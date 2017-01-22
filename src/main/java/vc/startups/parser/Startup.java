@@ -42,6 +42,6 @@ public class Startup implements Comparable<Startup> {
                 ", link='" + link + '\'' +
                 ", ups=" + ups +
                 ", downs=" + downs +
-                '}';
+                '}' + System.lineSeparator();
     }
 }
